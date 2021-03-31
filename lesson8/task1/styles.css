@@ -1,0 +1,23 @@
+body {
+  background-color: antiquewhite;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.rect {
+  border: 8px solid black;
+  margin: 16px;
+  padding: 16px;
+  width: 512px;
+  height: 128px;
+}
+
+.rectangle1 {
+  background-color: aquamarine;
+}
+
+.rectangle2 {
+  background-color: azure;
+}
