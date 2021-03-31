@@ -14,7 +14,7 @@ a[target='_blank'] {
   margin-left: 50px;
 }
 
-[lang~='en'],
+a[lang~='en'],
 [lang*='en-'] {
   font-size: 10px;
 }
@@ -23,6 +23,6 @@ a[target='_blank'] {
   color: green;
 }
 
-[title*='popular'] {
+[title~='popular'] {
   font-size: 24px;
 }
