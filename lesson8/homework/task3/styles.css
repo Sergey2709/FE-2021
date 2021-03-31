@@ -1,0 +1,23 @@
+div {
+  width: auto;
+  height: auto;
+  margin: 50px;
+  border: 2px solid black;
+}
+
+.four {
+  padding: 50px;
+  background-color: pink;
+}
+
+.three {
+  background-color: green;
+}
+
+.two {
+  background-color: yellow;
+}
+
+.one {
+  background-color: blue;
+}
