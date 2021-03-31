@@ -14,7 +14,7 @@ a[target='_blank'] {
   margin-left: 50px;
 }
 
-[href*='en'],
+[href~='en'],
 [href*='en-'] {
   font-size: 10px;
 }
