@@ -2,10 +2,6 @@ body {
   background-color: antiquewhite;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 .rect {
   border: 8px solid black;
   margin: 16px;
@@ -19,5 +15,6 @@ body {
 }
 
 .rectangle2 {
+  box-sizing: border-box;
   background-color: azure;
 }
