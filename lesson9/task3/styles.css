@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+.header,
+.footer {
+  height: 50px;
+  clear: both;
+}
+
+.header {
+  background-color: yellow;
+}
+
+.footer {
+  background-color: green;
+}
+
+.content {
+  float: left;
+  width: 80%;
+  background-color: pink;
+  height: 500px;
+}
+
+.sidebar {
+  float: left;
+  width: 20%;
+  background-color: grey;
+  height: 500px;
+}
