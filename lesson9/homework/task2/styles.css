@@ -10,6 +10,7 @@
 
   background-color: darkturquoise;
   position: fixed;
+  z-index: 1;
 }
 
 .nav-list {
@@ -29,6 +30,7 @@
 .content {
   background-color: beige;
   height: 5000px;
+  z-index: 2;
 }
 
 .head {
