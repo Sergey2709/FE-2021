@@ -10,7 +10,7 @@ body {
 header {
   display: flex;
   margin: 8px;
-  padding: 14px;
+  padding: 13px;
 }
 
 header > h1 {
