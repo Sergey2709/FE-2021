@@ -1,11 +1,13 @@
 * {
   box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
 }
 
 header {
   display: flex;
   padding: 8px;
-  margin: 13px;
+  margin: 14px;
 }
 
 header > h1 {
@@ -23,5 +25,5 @@ header > h1 {
 .articles-list {
   display: flex;
   flex-wrap: wrap;
-  padding: 8px;
+  padding: 16px;
 }
