@@ -2,10 +2,6 @@
   box-sizing: border-box;
 }
 
-body {
-  padding: 0px;
-}
-
 header {
   display: flex;
   padding: 8px;
