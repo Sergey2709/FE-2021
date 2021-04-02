@@ -9,7 +9,7 @@ body {
 header {
   display: flex;
   padding: 8px;
-  margin: 16px;
+  margin: 15px;
 }
 
 header > h1 {
