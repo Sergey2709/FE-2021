@@ -5,10 +5,11 @@
 header {
   display: flex;
   padding: 8px;
+  margin: 16px;
 }
 
 header > h1 {
-  margin: 0 auto;
+  margin: auto;
 }
 
 .article {
