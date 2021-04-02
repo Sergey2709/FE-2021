@@ -14,12 +14,12 @@ header > h1 {
 
 .article {
   margin: 8px;
-  padding: 16px;
+  padding: 15px 16px 14px 16px;
   background-color: bisque;
   width: 300px;
   flex-direction: column;
   flex-grow: 1;
-  flex-basis: fit-content;
+  /* flex-basis: initial; */
 }
 
 .articles-list {
