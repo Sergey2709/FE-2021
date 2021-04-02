@@ -14,7 +14,7 @@ header > h1 {
 
 .article {
   margin: 8px;
-  padding: 16px;
+  padding: 16px 17px;
   flex-basis: 300px;
   background-color: bisque;
   flex-direction: column;
