@@ -46,7 +46,8 @@ ul {
 
 .news_item {
   list-style-type: none;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .footer {
