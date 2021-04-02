@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+body {
+  padding: 0px;
+}
+
 header {
   display: flex;
   padding: 8px;
@@ -23,5 +27,4 @@ header > h1 {
 .articles-list {
   display: flex;
   flex-wrap: wrap;
-  padding: 8px;
 }
