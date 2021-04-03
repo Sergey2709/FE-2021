@@ -25,6 +25,6 @@ h1 {
 .articles-list {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 2px;
+  /* padding-top: 2px; */
   flex-shrink: 0;
 }
