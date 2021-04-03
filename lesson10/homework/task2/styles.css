@@ -26,5 +26,6 @@ h1 {
 .articles-list {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 8px;
+  margin-top: 2px;
+  margin-bottom: 16px;
 }
