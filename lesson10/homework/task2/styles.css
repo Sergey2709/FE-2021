@@ -4,7 +4,7 @@
 
 header {
   display: flex;
-  margin: 8px;
+  margin: 8px 8px 9px 8px;
   padding: 13px;
 }
 
@@ -19,7 +19,7 @@ h1 {
   background-color: bisque;
   flex-direction: column;
   flex-grow: 1;
-  flex-shrink: 0;
+  flex-shrink: 300px;
 }
 
 .articles-list {
