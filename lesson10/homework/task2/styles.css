@@ -13,7 +13,7 @@ h1 {
 }
 
 .article {
-  margin: 8px;
+  margin: 9px;
   padding: 16px;
   flex-basis: 300px;
   background-color: bisque;
@@ -25,5 +25,5 @@ h1 {
 .articles-list {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 1px;
+  /* margin-top: 1px; */
 }
