@@ -13,7 +13,7 @@ h1 {
 }
 
 .article {
-  margin: 9px;
+  margin: 9px 8px;
   padding: 16px;
   flex-basis: 300px;
   background-color: bisque;
