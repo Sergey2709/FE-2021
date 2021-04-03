@@ -15,8 +15,7 @@ h1 {
 .article {
   margin: 8px;
   padding: 16px;
-  width: 300px;
-  flex-basis: auto;
+  flex-basis: 300px;
   background-color: bisque;
   flex-direction: column;
   flex-grow: 1;
@@ -26,6 +25,4 @@ h1 {
 .articles-list {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 2px;
-  margin-bottom: 16px;
 }
