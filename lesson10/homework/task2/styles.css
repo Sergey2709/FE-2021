@@ -15,11 +15,12 @@ h1 {
 .article {
   margin: 8px;
   padding: 16px;
-  flex-basis: 300px;
+  width: 300px;
+  flex-basis: auto;
   background-color: bisque;
   flex-direction: column;
   flex-grow: 1;
-  flex-shrink: 300px;
+  flex-shrink: auto;
 }
 
 .articles-list {
