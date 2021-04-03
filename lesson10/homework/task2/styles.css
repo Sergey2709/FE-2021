@@ -20,7 +20,7 @@ h1 {
   background-color: bisque;
   flex-direction: column;
   flex-grow: 1;
-  flex-shrink: auto;
+  flex-shrink: 0;
 }
 
 .articles-list {
