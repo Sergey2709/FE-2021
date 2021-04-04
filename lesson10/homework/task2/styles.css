@@ -3,13 +3,14 @@
 }
 
 header {
-  display: flex;
-  /* margin: 8px 8px 9px 8px; */
-  padding: 21px;
+  height: 79px;
 }
 
 h1 {
-  margin: auto;
+  position: absolute;
+  width: 106px;
+  left: 50%;
+  margin-left: -53px;
 }
 
 .article {
@@ -17,13 +18,8 @@ h1 {
   padding: 16px;
   flex-basis: 300px;
   background-color: bisque;
-  flex-direction: column;
-  flex-grow: 1;
-  flex-shrink: 1;
 }
 
 .articles-list {
   display: flex;
-  flex-wrap: wrap;
-  margin-top: 1px;
 }
