@@ -18,8 +18,11 @@ h1 {
   padding: 16px;
   flex-basis: 300px;
   background-color: bisque;
+  flex-shrink: 0;
+  flex-grow: 1;
 }
 
 .articles-list {
   display: flex;
+  flex-wrap: wrap;
 }
