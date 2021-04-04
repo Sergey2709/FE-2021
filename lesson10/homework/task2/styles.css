@@ -10,7 +10,7 @@ header {
 
 .article {
   margin: 8px;
-  padding: 17px 16px 8px 16px;
+  padding: 16px;
   flex-basis: 300px;
   background-color: bisque;
   flex-shrink: 0;
@@ -20,4 +20,5 @@ header {
 .articles-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
