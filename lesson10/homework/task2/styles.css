@@ -17,10 +17,11 @@ header {
   background-color: bisque;
   flex-shrink: 0;
   flex-grow: 1;
+  justify-content: space-around;
 }
 
 .articles-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  /* justify-content: space-around; */
 }
