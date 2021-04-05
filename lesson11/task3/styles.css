@@ -3,9 +3,11 @@
 }
 
 .dropdown {
-  position: relative;
-  padding: 16px;
-  margin: 16px 0;
+  position: absolute;
+  /* padding: 16px; */
+  /* margin: 16px 0; */
+  top: 32px;
+  left: 16px;
   opacity: 0.8;
   font-size: 16px;
   color: white;
@@ -37,7 +39,7 @@
   list-style-type: none;
   position: absolute;
   display: none;
-  top: 50.33px;
+  top: 34px;
 }
 
 .menu-item {
