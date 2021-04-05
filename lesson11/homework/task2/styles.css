@@ -1,0 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+
+.gallery {
+  display: flex;
+  cursor: all-scroll;
+}
+
+.thumb {
+  margin: 8px;
+}
