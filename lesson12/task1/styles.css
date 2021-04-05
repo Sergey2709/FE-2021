@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 32px;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+}
+
+h1 {
+  word-spacing: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p {
+  line-height: 28px;
+}
+
+.tech {
+  letter-spacing: 3px;
+  font-size: 24px;
+  opacity: 80%;
+  text-decoration: underline;
+}
+
+[target='_blank'] {
+  text-decoration: none;
+}
+
+.translate {
+  color: gray;
+}
