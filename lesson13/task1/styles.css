@@ -16,7 +16,7 @@ body {
   padding-top: 32px;
   font-weight: 700;
   background-color: linear-gradint(45deg, white, white);
-  -webkit-text-fill-color: black;
+  -webkit-text-fill-color: white;
   /* -webkit-background-clip: text; */
   background-image: url(nature.jpeg);
   background-position: center;
