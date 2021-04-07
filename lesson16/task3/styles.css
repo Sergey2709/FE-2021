@@ -2,10 +2,6 @@
   box-sizing: border-box;
 }
 
-html {
-  line-height: 1.2;
-}
-
 input[type='checkbox'] {
   visibility: hidden;
   width: 0;
