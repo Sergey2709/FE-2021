@@ -1,8 +1,9 @@
-/* * {
+* {
   box-sizing: border-box;
-} */
-body {
-  margin-top: -1px;
+}
+
+html {
+  line-height: 1.2;
 }
 
 input[type='checkbox'] {
