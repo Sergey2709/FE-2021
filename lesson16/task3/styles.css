@@ -21,7 +21,7 @@ input[type='checkbox'] {
 .checkbox {
   position: relative;
   font-size: 24px;
-  margin: 0 16px;
+  margin: 1px 23px;
   padding-left: 35px;
   /* display: block; */
 }
