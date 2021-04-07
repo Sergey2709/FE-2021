@@ -20,12 +20,12 @@ input[type='checkbox'] {
   display: inline-block;
   position: absolute;
   left: 0;
-  top: 0;
+  top: -1px;
 }
 .checkbox {
   position: relative;
   font-size: 24px;
-  line-height: 25px;
+  line-height: 26px;
   margin: 0 16px;
   padding-left: 35px;
   /* display: block; */
