@@ -1,7 +1,10 @@
-/* * {
+* {
   box-sizing: border-box;
+}
 
-} */
+body {
+  margin: 0;
+}
 
 input[type='checkbox'] {
   visibility: hidden;
@@ -21,7 +24,7 @@ input[type='checkbox'] {
 .checkbox {
   position: relative;
   font-size: 24px;
-  margin: 1px 23px;
+  margin: 0 16px;
   padding-left: 35px;
   /* display: block; */
 }
