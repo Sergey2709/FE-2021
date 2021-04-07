@@ -24,7 +24,7 @@
   filter: opacity(50%);
 }
 
-.opacity-filter {
+.blur-filter {
   filter: blur(4px);
 }
 
