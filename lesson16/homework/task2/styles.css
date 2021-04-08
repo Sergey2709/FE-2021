@@ -9,3 +9,7 @@ form {
 input {
   margin: 8px; /*2*/
 }
+
+.languages {
+  margin: 0;
+}
