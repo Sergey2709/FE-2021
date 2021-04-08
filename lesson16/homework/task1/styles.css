@@ -29,6 +29,10 @@ body {
   text-transform: uppercase; /*5*/
 }
 
+div {
+  margin-bottom: 8px;
+}
+
 .form-label {
   display: block;
   margin: 4px 0;
