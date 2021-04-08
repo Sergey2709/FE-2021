@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+form,
+body {
+  display: flex;
+}
+
 .checkbox {
   position: relative;
   padding-left: 35px;
