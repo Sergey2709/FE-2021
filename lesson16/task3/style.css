@@ -11,23 +11,25 @@ body {
   position: relative;
   padding-left: 35px;
   font-size: 24px;
-  line-height: 24px; /* pod voprosom */
+  /* line-height: 24px; pod voprosom */
   margin: 16px;
-  top: 0;
-  left: 0;
+  /* top: 0;
+  left: 0; */
 }
 
 input[type='checkbox'] {
   visibility: hidden;
   width: 0;
   height: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .checkmark {
   height: 25px;
   width: 25px;
   top: 25;
-  left: 10px;
+  left: 0;
   position: absolute;
   background-color: #d3d3d3;
 }
