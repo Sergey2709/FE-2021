@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: space-around;
+}
+
+.fa {
+  vertical-align: top;
+}
+
+body .fa-battery-full {
+  font-size: 16px;
+}
+
+body .fa-battery-three-quarters {
+  font-size: 32px;
+}
+
+body .fa-battery-half {
+  font-size: 64px;
+}
+
+body .fa-battery-quarter {
+  font-size: 128px;
+}
+
+body .fa-battery-empty {
+  font-size: 256px;
+}
