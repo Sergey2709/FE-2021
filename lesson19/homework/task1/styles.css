@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex; /*1*/
+  width: 100vw; /*1*/
+  height: 100vh; /*1*/
+}
+
+.spinner {
+  margin: auto; /*1*/
+  position: relative;
+}
+
+.spinner-text {
+  font-family: monospace; /*2*/
+  font-size: 16px; /*2*/
+  text-transform: uppercase; /*2*/
+  animation: blinking 2s infinite; /*3*/
+  transition-timing-function: linear; /*4*/
+}
+
+.rect {
+  width: 10px; /*5*/
+  height: 4px; /*5*/
+  background-color: black; /*5*/
+  border-radius: 2px; /*5*/
+  position: absolute;
+  animation: move 2s, blinking 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes move {
+  0% {
+    left: 0;
+  }
+
+  100% {
+    left: 80px;
+  }
+}
