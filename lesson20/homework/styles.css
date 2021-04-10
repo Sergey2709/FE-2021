@@ -42,7 +42,7 @@
   border-bottom: 4px solid lightgrey;
   border-left: 4px solid lightgrey;
   margin: 0 auto 8px;
-  animation: spin 2s linear infinite;
+  animation: spin 2s linear;
 }
 
 @keyframes spin {
