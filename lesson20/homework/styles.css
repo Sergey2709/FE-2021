@@ -17,7 +17,7 @@
   font-family: monospace; /*2*/
   font-size: 16px; /*2*/
   text-transform: uppercase; /*2*/
-  animation: blinking 2s infinite; /*4*/
+  animation: blinking 2s linear infinite; /*4*/
 }
 
 @keyframes blinking {
