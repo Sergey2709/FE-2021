@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 32px; /*1*/
+}
+
+.rect {
+  margin-bottom: 16px; /*1*/
+  background-color: coral; /*3*/
+  text-align: center; /*3*/
+  line-height: 100px; /*3*/
+  opacity: 0.5; /*3*/
+  width: 100px; /*4*/
+  height: 100px; /*4*/
+}
+
+.rect:hover {
+  width: 100%; /*4*/
+  opacity: 1; /*4*/
+  transition: width 2s, opacity 0.5s; /*4*/
+}
+
+.rect:nth-child(1) {
+  transition-timing-function: linear;
+}
+
+.rect:nth-child(2) {
+  transition-timing-function: ease;
+}
+
+.rect:nth-child(3) {
+  transition-timing-function: ease-in;
+}
+
+.rect:nth-child(4) {
+  transition-timing-function: ease-out;
+}
+
+.rect:nth-child(5) {
+  transition-timing-function: ease-in-out;
+}
