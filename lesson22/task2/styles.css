@@ -41,7 +41,8 @@ span {
     display: flex;
     flex-grow: 2;
   }
-  .navigation .products-list {
+  .navigation,
+  .products-list {
     width: 50vw;
   }
 }
