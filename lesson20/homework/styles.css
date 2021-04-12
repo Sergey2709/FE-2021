@@ -34,11 +34,12 @@
 .circle {
   width: 50px; /*5*/
   height: 50px; /*5*/
-  border: 4px solid lightgrey; /*5*/
+  border-bottom: 4px solid lightgrey; /*5*/
+  border-left: 4px solid lightgrey; /*5*/
+  border-right: 4px solid lightgrey; /*5*/
   border-top: 4px solid black; /*5*/
   border-radius: 25px; /*5*/
   margin: 0 auto 8px; /*5*/
-  top: 0;
   animation: spin 2s linear; /* infinite под вопросом - этого в условии не было */
 }
 
