@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box; /*2*/
+}
+
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif; /*3*/
+  color: #555; /*3*/
+  font-size: 16px; /*3*/
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex; /*4*/
+  background-image: linear-gradient(60deg, red, orange); /*4*/
+}
+
+.header > h1 {
+  margin: 0.67em auto; /*4*/
+  color: white; /*4*/
+}
+
+.footer {
+  margin-top: auto; /*5*/
+  background-color: #e5e5e5; /*5*/
+  padding: 0.5em; /*5*/
+  text-align: center; /*5-?*/
+}
+
+.main {
+  display: flex;
+  font-size: 1.25em;
+}
+
+.navigation,
+.section,
+.news {
+  padding: 0.5em;
+}
+
+.navigation {
+  width: 20%;
+}
+
+.section {
+  width: 60%;
+}
+
+.news {
+  width: 20%;
+}
+
+.units-list {
+  line-height: 1.75em;
+}
+
+.css-units {
+  color: #8b0000;
+  background-color: #e5e5e5;
+  font-size: 1.125em;
+  font-weight: 700;
+}
+
+.section__header {
+  font-size: 5vw;
+  text-align: center;
+}
+
+.nav-list {
+  padding: 0;
+}
+
+.nav-list-item {
+  list-style-type: none;
+  background-color: #808080;
+  color: white;
+  line-height: 2em; /*ochen ne tochnoe uslovie*/
+  margin-bottom: 0.5em;
+}
+
+.nav-list-link {
+  text-decoration: none;
+  color: white;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
