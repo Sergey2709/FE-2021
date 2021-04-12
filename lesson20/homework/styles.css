@@ -9,8 +9,7 @@ body {
 
 .container {
   margin: auto;
-  display: flex; /*1*/
-  height: 100vh; /*1*/
+  position: relative;
 }
 
 .spinner {
