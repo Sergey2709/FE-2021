@@ -2,7 +2,13 @@
   box-sizing: border-box; /*5*/
 }
 
+body {
+  display: flex;
+  height: 100vh;
+}
+
 .container {
+  margin: auto;
   display: flex; /*1*/
   height: 100vh; /*1*/
 }
