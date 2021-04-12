@@ -25,7 +25,6 @@
   width: 20%; /*4*/
   background-color: #5af; /*4*/
   display: flex;
-  padding: 4px;
 }
 
 .idea {
@@ -36,4 +35,5 @@
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  padding: 4px;
 }
