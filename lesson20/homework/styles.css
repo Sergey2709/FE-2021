@@ -1,6 +1,6 @@
-/* * {
+* {
   box-sizing: border-box;
-} */
+}
 
 .container {
   display: flex;
@@ -36,7 +36,7 @@
   height: 50px;
   border: 4px solid lightgrey;
   border-top: 4px solid black;
-  border-radius: 50px;
+  border-radius: 25px;
   margin: 0 auto 8px;
   animation: spin 2s linear infinite; /* infinite под вопросом - этого в условии не было */
 }
