@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box; /*1*/
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif; /*3*/
+  font-size: 16px; /*3*/
+}
+
+.header {
+  height: 3em; /*4*/
+  padding: 0 1em; /*4*/
+  background-color: #eee; /*4*/
+}
+
+.fa-bars {
+  font-size: 2em; /*5*/
+}
+
+button {
+  padding: 0; /*5*/
+  border: none; /*5*/
+  box-shadow: none; /*5*/
+  margin-top: 0.5em; /*5*/
+  margin-bottom: 0.5em; /*5*/
+}
+
+button:hover {
+  cursor: pointer; /*5*/
+}
+
+.nav-list {
+  padding: 0; /*6*/
+}
+
+.nav-list-item {
+  list-style-type: none; /*6*/
+  background-color: #808080; /*7*/
+  color: white; /*7*/
+  line-height: 2em; /*7 tut neponyatnoe uslovie, to li vysota linii, yo li shrifta*/
+  margin-bottom: 0.5em; /*7*/
+  padding: 0 0.5em; /*8*/
+  /* display: flex; 8 */
+  /* flex-shrink: 1; - eto iz usloviya 8 !!! */
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.nav-list-link {
+  flex-grow: 1; /*8*/
+  color: white; /*9*/
+  text-decoration: none; /*9*/
+}
+
+.main {
+  display: flex; /*6*/
+}
+
+.navigation {
+  width: 20vw; /*6*/
+  padding: 0.5em; /*6*/
+}
+
+@media screen and (max-width: 600px) {
+  .navigation {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  button {
+    display: none;
+  }
+}
