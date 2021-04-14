@@ -12,6 +12,9 @@ body {
 
 .container {
   margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -31,9 +34,18 @@ body {
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 900px) {
   .square {
     background-color: #c47;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  .container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
 }
 /*# sourceMappingURL=styles.css.map */

@@ -11,6 +11,7 @@ body {
 
 .container {
   margin: auto;
+  display: flex;
   flex-direction: column;
 }
 
@@ -29,8 +30,8 @@ body {
   }
 }
 
-// @media screen and (orientation: landscape) {
-//   body {
-//     flex-direction: column;
-//   }
-// }
+@media screen and (orientation: landscape) {
+  .container {
+    flex-direction: row;
+  }
+}
