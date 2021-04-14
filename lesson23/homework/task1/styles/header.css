@@ -31,11 +31,6 @@ nav {
   background-color: #9acd32;
 }
 
-.menu__item_active:hover {
-  /*vozmozhno pri HOVER*/
-  color: #ffff00;
-}
-
 .menu__item_active {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -44,6 +39,7 @@ nav {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  color: #ffff00;
 }
 
 .submenu {

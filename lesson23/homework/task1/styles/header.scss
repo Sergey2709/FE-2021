@@ -26,13 +26,11 @@ nav {
   &:hover {
     background-color: #9acd32;
   }
-  &_active:hover {
-    /*vozmozhno pri HOVER*/
-    color: #ffff00;
-  }
+
   &_active {
     display: flex;
     flex-direction: column;
+    color: #ffff00;
   }
 }
 
