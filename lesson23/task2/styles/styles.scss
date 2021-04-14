@@ -26,6 +26,10 @@ body {
   }
 
   @include for-large-up {
+    background-color: #a61;
+  }
+
+  @include for-extra-large {
     background-color: #c47;
   }
 }

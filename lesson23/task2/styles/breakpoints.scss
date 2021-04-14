@@ -19,3 +19,9 @@ $lg: 1200px;
     @content;
   }
 }
+
+@mixin for-extra-large {
+  @media screen and (min-width: $lg) {
+    @content;
+  }
+}
