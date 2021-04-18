@@ -1,0 +1,73 @@
+.order {
+  padding: 50px 15px;
+  background-color: #f4f5f7;
+}
+
+.order__illustration {
+  max-width: 200px;
+}
+
+.order__title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: -0.25px;
+  color: #2b292d;
+  margin-top: 40px;
+}
+
+.order__text {
+  margin: 0;
+  font-size: 22px;
+  line-height: 32px;
+  color: #2b292d;
+  margin-top: 18px;
+}
+
+.order__email {
+  margin-top: 40px;
+  height: 48px;
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid rgba(43, 41, 45, 0.2);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 2px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 13px;
+}
+
+.order__email::-webkit-input-placeholder {
+  color: #2b292d;
+}
+
+.order__email:-ms-input-placeholder {
+  color: #2b292d;
+}
+
+.order__email::-ms-input-placeholder {
+  color: #2b292d;
+}
+
+.order__email::placeholder {
+  color: #2b292d;
+}
+
+.order__button {
+  margin-top: 12px;
+  width: 100%;
+}
+
+.order__terms {
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(43, 41, 45, 0.6);
+}
+
+.order__terms-link {
+  color: #3142c6;
+}
+/*# sourceMappingURL=order.css.map */
