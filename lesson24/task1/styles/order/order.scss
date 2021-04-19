@@ -3,7 +3,8 @@
   background-color: #f4f5f7;
 
   @include for-large-up {
-    padding: 73px 228px 72px 224px;
+    padding: 0;
+    margin: 0;
     max-height: 441px;
     display: flex;
   }
@@ -14,7 +15,9 @@
     flex-direction: column;
 
     @include for-large-up {
+      max-width: 100%;
       flex-direction: row;
+      margin: 73px 228px 72px 224px;
     }
   }
 
@@ -37,7 +40,8 @@
     @include for-large-up {
       display: flex;
       flex-direction: column;
-      min-width: 555px;
+      max-width: 555px;
+      margin-top: 33px;
     }
   }
 
@@ -53,7 +57,7 @@
 
     @include for-large-up {
       text-align: left;
-      margin-top: 33px;
+      margin-top: 0;
     }
   }
 
