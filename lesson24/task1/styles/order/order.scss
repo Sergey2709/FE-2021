@@ -26,7 +26,8 @@
 
     @include for-large-up {
       max-width: 269px;
-      max-height: 296px;
+      height: 296px;
+      -ms-flex-align: start;
       margin-right: 121px;
       align-items: center;
     }

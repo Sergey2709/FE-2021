@@ -639,7 +639,8 @@
 @media screen and (min-width: 1400px) {
   .order__illustration {
     max-width: 269px;
-    max-height: 296px;
+    height: 296px;
+    -ms-flex-align: start;
     margin-right: 121px;
     -webkit-box-align: center;
         -ms-flex-align: center;
