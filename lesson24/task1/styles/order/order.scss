@@ -12,6 +12,10 @@
     max-width: 555px;
     display: flex;
     flex-direction: column;
+
+    @include for-large-up {
+      flex-direction: row;
+    }
   }
 
   &__illustration {
@@ -28,6 +32,14 @@
     }
   }
 
+  &__content {
+    @include for-large-up {
+      display: flex;
+      flex-direction: column;
+      min-width: 555px;
+    }
+  }
+
   &__title {
     margin: 0;
     font-weight: 700;
@@ -37,6 +49,11 @@
     letter-spacing: -0.25px;
     color: #2b292d;
     margin-top: 40px;
+
+    @include for-large-up {
+      text-align: left;
+      margin-top: 33px;
+    }
   }
 
   &__text {
@@ -45,6 +62,10 @@
     line-height: 32px;
     color: #2b292d;
     margin-top: 18px;
+
+    @include for-large-up {
+      margin-top: 12px;
+    }
   }
 
   &__form {
