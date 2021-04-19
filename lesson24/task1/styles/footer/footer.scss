@@ -20,7 +20,7 @@
 }
 
 .about-company {
-  margin-top: 43px;
+  margin-top: 40px;
 }
 
 .footer-navigation {
@@ -38,7 +38,7 @@
 }
 
 .downloads {
-  margin: 25px 15px 0 15px;
+  margin: 31px 29px 0 30px;
   display: flex;
   justify-content: center;
 
@@ -98,9 +98,8 @@
 }
 
 .footer__line {
-  border-top: 1px solid #2b292d;
+  border-top: 1px solid #e3e3e3;
   width: 100%;
-  opacity: 0.1;
   margin: 0;
   margin-top: 40px;
 
@@ -142,7 +141,7 @@
 
 .social-links {
   margin-top: 31px;
-  margin-bottom: 23px;
+  margin-bottom: 22px;
 
   @include for-large-up {
     margin-left: auto;
@@ -164,8 +163,12 @@
   flex-direction: column;
   align-items: center;
 
+  &__text {
+    margin-top: 20px;
+  }
+
   &__image {
-    width: 60px;
+    width: 66px;
     height: 60px;
   }
 
@@ -174,7 +177,6 @@
     font-size: 20px;
     line-height: 25px;
     text-align: center;
-    margin-top: 20px;
   }
 
   &__description {

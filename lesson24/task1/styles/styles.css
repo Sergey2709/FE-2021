@@ -60,7 +60,7 @@
 }
 
 .about-company {
-  margin-top: 43px;
+  margin-top: 40px;
 }
 
 .footer-navigation {
@@ -90,7 +90,7 @@
 }
 
 .downloads {
-  margin: 25px 15px 0 15px;
+  margin: 31px 29px 0 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -170,9 +170,8 @@
 }
 
 .footer__line {
-  border-top: 1px solid #2b292d;
+  border-top: 1px solid #e3e3e3;
   width: 100%;
-  opacity: 0.1;
   margin: 0;
   margin-top: 40px;
 }
@@ -230,7 +229,7 @@
 
 .social-links {
   margin-top: 31px;
-  margin-bottom: 23px;
+  margin-bottom: 22px;
 }
 
 @media screen and (min-width: 1400px) {
@@ -262,8 +261,12 @@
           align-items: center;
 }
 
+.logo-vertical__text {
+  margin-top: 20px;
+}
+
 .logo-vertical__image {
-  width: 60px;
+  width: 66px;
   height: 60px;
 }
 
@@ -272,7 +275,6 @@
   font-size: 20px;
   line-height: 25px;
   text-align: center;
-  margin-top: 20px;
 }
 
 .logo-vertical__description {
@@ -453,6 +455,7 @@
 
 .headline {
   width: 100vw;
+  padding-bottom: 36px;
 }
 
 @media screen and (min-width: 1400px) {
@@ -481,6 +484,7 @@
 }
 
 .headline__title {
+  margin: 0;
   font-weight: 700;
   font-size: 50px;
   line-height: 50px;
@@ -554,7 +558,7 @@
 
 .headline__banner {
   width: 100%;
-  margin-bottom: 36px;
+  height: 180px;
 }
 
 @media screen and (min-width: 1400px) {
@@ -591,11 +595,20 @@
 
 .order__details {
   max-width: 555px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .order__illustration {
   max-width: 200px;
-  margin-left: 45px;
+  height: 220px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (min-width: 1400px) {
@@ -628,6 +641,10 @@
   margin-top: 18px;
 }
 
+.order__form {
+  margin-top: 40px;
+}
+
 @media screen and (min-width: 1400px) {
   .order__form {
     display: -webkit-box;
@@ -638,7 +655,6 @@
 }
 
 .order__email {
-  margin-top: 40px;
   height: 48px;
   width: 100%;
   background: #ffffff;
@@ -687,6 +703,8 @@
 }
 
 .order__terms {
+  margin: 0;
+  margin-top: 10px;
   font-size: 14px;
   line-height: 22px;
   color: rgba(43, 41, 45, 0.6);

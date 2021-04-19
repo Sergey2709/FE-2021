@@ -10,11 +10,15 @@
 
   &__details {
     max-width: 555px;
+    display: flex;
+    flex-direction: column;
   }
 
   &__illustration {
     max-width: 200px;
-    margin-left: 45px;
+    height: 220px;
+    margin-left: auto;
+    margin-right: auto;
 
     @include for-large-up {
       max-width: 269px;
@@ -44,6 +48,8 @@
   }
 
   &__form {
+    margin-top: 40px;
+
     @include for-large-up {
       display: flex;
       margin-top: 26px;
@@ -51,7 +57,6 @@
   }
 
   &__email {
-    margin-top: 40px;
     height: 48px;
     width: 100%;
     background: #ffffff;
@@ -83,6 +88,8 @@
   }
 
   &__terms {
+    margin: 0;
+    margin-top: 10px;
     font-size: 14px;
     line-height: 22px;
     color: rgba(43, 41, 45, 0.6);
