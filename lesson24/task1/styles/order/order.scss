@@ -57,6 +57,7 @@
 
     @include for-large-up {
       text-align: left;
+      line-height: 48px; /*podozritelno t.k. d.b. 40px*/
       margin-top: 0;
     }
   }

@@ -679,6 +679,7 @@
 @media screen and (min-width: 1400px) {
   .order__title {
     text-align: left;
+    line-height: 48px;
     margin-top: 0;
   }
 }
