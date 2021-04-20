@@ -11,9 +11,9 @@ html {
 .page {
   margin: auto;
   width: 1440px;
-  max-height: 1000px;
+  height: 1000px;
   background: #141b1c;
-  padding: 112px 132px;
+  //   padding: 112px 132px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -47,7 +47,7 @@ html {
     &_subtitle {
       margin: 0;
       font-size: 20px;
-      font-weight: 300;
+      font-weight: 400;
       line-height: 24px;
     }
   }
