@@ -11,9 +11,9 @@ html {
 .page {
   margin: auto;
   width: 1440px;
-  height: 1000px;
+  max-height: 1000px;
   background: #141b1c;
-  //   padding: 112px 132px;
+  padding: 112px 132px;
   display: flex;
   align-items: center;
   justify-content: center;
