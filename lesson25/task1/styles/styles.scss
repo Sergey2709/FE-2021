@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.page {
+  margin: auto;
+  max-width: 1440px;
+  height: 1000px;
+  background: #141b1c;
+  padding: 112px 132px;
+}
+
+.table {
+  display: flex;
+
+  &__colum {
+    width: 380px;
+    height: 770px;
+    background-color: #334247;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+    margin-right: 18px;
+  }
+
+  &__colum:last-child {
+    margin-right: 0;
+  }
+}
+
+.column__header {
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  &_title {
+    margin: 0;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30.48px;
+  }
+
+  &_subtitle {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24.38px;
+  }
+}
+
+.column__price {
+  height: 105px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &-basic {
+    background-color: #5bb189;
+  }
+
+  &-business {
+    background-color: #3a6ba5;
+  }
+
+  &-webshop {
+    background-color: #ec632a;
+  }
+
+  &_information {
+    margin: 0;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 67px;
+  }
+}
+
+.column__description {
+  height: 116px;
+  display: flex;
+  align-items: center;
+
+  &_text {
+    margin: 0;
+    margin: auto;
+    width: 327.5px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+  }
+}
+
+.column__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  &_item {
+    height: 50px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+  }
+
+  &_item:nth-child(odd) {
+    background-color: #2a343880;
+    mix-blend-mode: normal;
+  }
+}
+
+img {
+  margin: 18px 22px 19px 22px;
+}
+
+span {
+  width: 300px;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.column__action {
+  height: 119px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &_button {
+    width: 154.63px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+
+    &-green {
+      background-color: #5bb189;
+    }
+
+    &-blue {
+      background-color: #3a6ba5;
+    }
+
+    &-orange {
+      background-color: #ec632a;
+    }
+  }
+}
