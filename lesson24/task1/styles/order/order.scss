@@ -5,6 +5,7 @@
   @include for-large-up {
     padding: 0;
     margin: 0;
+    padding: 73px 228px 72px 224px;
     height: 441px;
     display: flex;
   }
@@ -17,7 +18,6 @@
     @include for-large-up {
       max-width: 100%;
       flex-direction: row;
-      margin: 73px 228px 72px 224px;
     }
   }
 
@@ -121,9 +121,14 @@
     font-size: 14px;
     line-height: 22px;
     color: rgba(43, 41, 45, 0.6);
+
+    @include for-large-up {
+      width: 497px;
+    }
   }
 
   &__terms-link {
     color: #3142c6;
+    opacity: 1;
   }
 }

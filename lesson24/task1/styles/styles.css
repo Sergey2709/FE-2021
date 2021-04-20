@@ -609,6 +609,7 @@
   .order {
     padding: 0;
     margin: 0;
+    padding: 73px 228px 72px 224px;
     height: 441px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -634,7 +635,6 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    margin: 73px 228px 72px 224px;
   }
 }
 
@@ -775,8 +775,15 @@
   color: rgba(43, 41, 45, 0.6);
 }
 
+@media screen and (min-width: 1400px) {
+  .order__terms {
+    width: 497px;
+  }
+}
+
 .order__terms-link {
   color: #3142c6;
+  opacity: 1;
 }
 
 .audience {
