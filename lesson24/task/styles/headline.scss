@@ -1,10 +1,12 @@
 .headline {
   width: 100vw;
+  padding-bottom: 36px;
 
   @include for-large-up {
     position: relative;
     width: 1140px;
-    margin: auto;
+    // margin: auto;
+    margin-left: 126px;
     margin-top: 84px;
     display: flex;
     padding-bottom: 77px;
@@ -21,6 +23,7 @@
   }
 
   &__title {
+    margin: 0;
     font-weight: 700;
     font-size: 50px;
     line-height: 50px;
@@ -45,6 +48,7 @@
     line-height: 34px;
 
     @include for-large-up {
+      margin-left: 4px;
       margin-top: 34px;
       margin-bottom: 0;
       height: 102px;
@@ -61,6 +65,7 @@
     @include for-large-up {
       margin-top: 58px;
       margin-bottom: 126px;
+      margin-left: 4px;
       display: flex;
     }
   }
@@ -84,7 +89,7 @@
 
   &__banner {
     width: 100%;
-    margin-bottom: 36px;
+    height: 180px;
 
     @include for-large-up {
       position: relative;

@@ -48,9 +48,10 @@
 
   @include for-large-up {
     display: block;
+    width: 273px;
     margin-left: auto;
     margin-top: 7px;
-    margin-right: 75px;
+    margin-right: 56px;
   }
 
   &__item {
@@ -59,6 +60,10 @@
     line-height: 25px;
     font-size: 18px;
     margin-right: 50px;
+
+    @include for-large-up {
+      margin-right: 33px;
+    }
 
     &_selected {
       font-weight: 700;
@@ -81,13 +86,17 @@
 .logo {
   display: flex;
 
+  @include for-large-up {
+    margin-right: 335px;
+  }
+
   &__image {
     width: 48px;
     height: 48px;
     margin-right: 13px;
 
     @include for-large-up {
-      width: 60px;
+      width: 66px;
       height: 60px;
       margin-right: 15px;
     }
@@ -103,6 +112,7 @@
     display: none;
 
     @include for-large-up {
+      display: block;
       font-size: 18px;
       line-height: 25px;
       color: #2b292d;

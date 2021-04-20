@@ -16,7 +16,7 @@
       integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
   </head>
   <body>
     <div class="page">
@@ -38,7 +38,7 @@
             <a href="#" class="navigation__item">Stories</a>
             <a href="#" class="navigation__item">Library<i class="navigation__arrow"></i></a>
           </nav>
-          <button class="action__button header__button">Get Started</button>
+          <button class="action-button header__button">Get Started</button>
           <button class="header__menu-button">
             <span class="header__menu-icon"></span>
           </button>
@@ -54,7 +54,7 @@
               behaviors.
             </p>
             <div class="headline__action">
-              <button class="action__button headline__action-btn">Get Started</button>
+              <button class="action-button headline__action-btn">Get Started</button>
               <button class="headline__learn-more-btn headline__action-btn">Learn More</button>
             </div>
           </div>
@@ -67,24 +67,80 @@
         </section>
       </div>
 
-      <!-- ORDER -->
+      <!-- AUDIENCE -->
 
+      <section class="audience">
+        <div class="audience__details">
+          <h4 class="audience__details_title">Engage Visitors</h4>
+          <h3 class="audience__details_sub-title">Understand your audience</h3>
+          <h6 class="audience__details_description">
+            Early stage company? Eligible applicants get all of our products for just $49 a month.
+          </h6>
+        </div>
+        <div class="audience__actions">
+          <button class="audience__action-button action-button">Get Started</button>
+          <button class="audience__learn-more-btn learn-more-btn">Learn More</button>
+        </div>
+        <div class="audience__list">
+          <div class="audience__card card__developers">
+            <img
+              class="audience__card_icon"
+              src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/user-1.png"
+              alt="Developers Icon"
+            />
+            <p class="audience__card_text">Developers</p>
+          </div>
+          <div class="audience__card card__entertainment">
+            <img
+              class="audience__card_icon"
+              src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/user-2.png"
+              alt="Entertainment Icon"
+            />
+            <p class="audience__card_text">Entertainment</p>
+          </div>
+          <div class="audience__card card__athletes">
+            <img
+              class="audience__card_icon"
+              src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/user-3.png"
+              alt="Athletes Icon"
+            />
+            <p class="audience__card_text">Athletes</p>
+          </div>
+          <div class="audience__card card__creators">
+            <img
+              class="audience__card_icon"
+              src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/user-4.png"
+              alt="Creators Icon"
+            />
+            <p class="audience__card_text">Creators</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ORDER -->
+      
       <section class="order">
-        <img
-          class="order__illustration"
-          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/illustration-window.png"
-          alt="Window"
-        />
-        <h3 class="order__title">Start your free trial.</h3>
-        <p class="order__text">
-          Get notified about company updates, news and blog posts. We hate spam.
-        </p>
-        <input class="order_email" type="email" placeholder="Enter your email" />
-        <button class="action-button order__button">Get Started</button>
-        <p class="order__terms">
-          Free 14-day trial · Easy setup · Cancel any time. Check out
-          <a class="order__terms-link" href="#">Terms of Use.</a>
-        </p>
+        <div class="order__details">
+          <img
+            class="order__illustration"
+            src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/illustration-window.png"
+            alt="Window"
+          />
+          <div class="order__content">
+            <h3 class="order__title">Start your free trial.</h3>
+            <p class="order__text">
+              Get notified about company updates, news and blog posts. We hate spam.
+            </p>
+            <form class="order__form">
+              <input class="order__email" type="email" placeholder="Enter your email" />
+              <button class="action-button order__button">Get Started</button>
+            </form>
+            <p class="order__terms">
+              Free 14-day trial · Easy setup · Cancel any time. Check out
+              <a class="order__terms-link" href="#">Terms of Use.</a>
+            </p>
+          </div>
+        </div>
       </section>
 
       <!-- FOOTER -->

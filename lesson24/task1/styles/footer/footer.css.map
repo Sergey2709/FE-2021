@@ -1,9 +1,9 @@
 {
-  "version": 3,
-  "mappings": "",
-  "sources": [
-    "footer.scss"
-  ],
-  "names": [],
-  "file": "footer.css"
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "footer.scss"
+    ],
+    "names": [],
+    "file": "footer.css"
 }
