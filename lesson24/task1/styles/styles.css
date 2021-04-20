@@ -687,8 +687,8 @@
   .order__title {
     text-align: left;
     height: 48px;
+    line-height: 40px;
     /*podozritelno t.k. d.b. 40px*/
-    padding-bottom: 8px;
     margin-top: 0;
   }
 }
@@ -736,8 +736,6 @@
 @media screen and (min-width: 1400px) {
   .order__email {
     margin-top: 0;
-    text-align: left;
-    padding-left: 15px;
   }
 }
 
