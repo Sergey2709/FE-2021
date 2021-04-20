@@ -5,7 +5,7 @@
   @include for-large-up {
     padding: 0;
     margin: 0;
-    max-height: 441px;
+    height: 441px;
     display: flex;
   }
 
@@ -57,7 +57,8 @@
 
     @include for-large-up {
       text-align: left;
-      line-height: 48px; /*podozritelno t.k. d.b. 40px*/
+      height: 48px; /*podozritelno t.k. d.b. 40px*/
+      padding-bottom: 8px;
       margin-top: 0;
     }
   }

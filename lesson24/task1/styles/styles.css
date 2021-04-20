@@ -609,7 +609,7 @@
   .order {
     padding: 0;
     margin: 0;
-    max-height: 441px;
+    height: 441px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -685,8 +685,9 @@
 @media screen and (min-width: 1400px) {
   .order__title {
     text-align: left;
-    line-height: 48px;
+    height: 48px;
     /*podozritelno t.k. d.b. 40px*/
+    padding-bottom: 8px;
     margin-top: 0;
   }
 }
