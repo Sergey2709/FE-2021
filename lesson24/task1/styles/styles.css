@@ -911,6 +911,7 @@
         -ms-flex-pack: center;
             justify-content: center;
     margin-top: 111px;
+    padding-top: 0;
   }
 }
 
