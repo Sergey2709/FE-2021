@@ -11,10 +11,9 @@ html {
 
 .page {
   margin: auto;
-  max-width: 1440px;
+  width: 1440px;
   height: 1000px;
   background: #141b1c;
-  padding: 112px 132px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -189,7 +188,7 @@ html {
 .badge {
   position: absolute;
   top: -18px;
-  right: -18px;
+  right: -17px;
 }
 
 .price-card:last-child {
