@@ -60,7 +60,6 @@ html {
 
 .price-card__title_title {
   margin: 0;
-  font-size: 25px;
   font-weight: 700;
   line-height: 30.48px;
 }
@@ -180,6 +179,16 @@ html {
 
 .price-card__order-btn_button-orange {
   background-color: #ec632a;
+}
+
+.price-card_popular {
+  position: relative;
+}
+
+.badge {
+  position: absolute;
+  top: -18px;
+  right: -18px;
 }
 
 .price-card:last-child {
