@@ -924,7 +924,7 @@
   }
 }
 
-.audience__card {
+.user-card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -949,14 +949,14 @@
 }
 
 @media screen and (min-width: 1400px) {
-  .audience__card {
+  .user-card {
     width: 262px;
     margin-right: 30px;
     margin-bottom: 0;
   }
 }
 
-.audience__card_text {
+.user-card_text {
   margin: 0;
   margin: 22px 20px 33px 20px;
   text-align: center;
@@ -966,23 +966,23 @@
   color: #2b292d;
 }
 
-.audience__card_icon {
+.user-card_icon {
   margin: 22px auto 0 auto;
 }
 
-.audience__card:hover,
-.audience__card:hover .audience__card_text {
+.user-card:hover,
+.user-card:hover .user-card_text {
   background-color: #3141c5;
   cursor: pointer;
   color: #ffffff;
 }
 
-.audience__card:last-child {
+.user-card:last-child {
   margin-bottom: 0;
 }
 
 @media screen and (min-width: 1400px) {
-  .audience__card:last-child {
+  .user-card:last-child {
     margin-right: 0;
   }
 }
