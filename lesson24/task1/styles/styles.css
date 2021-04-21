@@ -610,7 +610,6 @@
   .order {
     padding: 0;
     margin: 0;
-    padding: 73px 228px 72px 224px;
     height: 441px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -651,7 +650,7 @@
     max-width: 269px;
     height: 296px;
     -ms-flex-align: start;
-    margin-right: 121px;
+    margin: 73px 121px 72px 224px;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -668,7 +667,7 @@
         -ms-flex-direction: column;
             flex-direction: column;
     max-width: 555px;
-    margin-top: 33px;
+    margin-top: 106px;
   }
 }
 
