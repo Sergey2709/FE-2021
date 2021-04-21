@@ -609,11 +609,8 @@
 @media screen and (min-width: 1400px) {
   .order {
     padding: 0;
-    margin: 0;
     height: 441px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    width: 1400px;
   }
 }
 
@@ -632,10 +629,6 @@
   .order__details {
     position: relative;
     max-width: 100%;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
   }
 }
 
@@ -648,10 +641,13 @@
 
 @media screen and (min-width: 1400px) {
   .order__illustration {
+    position: absolute;
     max-width: 269px;
     height: 296px;
-    -ms-flex-align: start;
-    margin: 73px 121px 72px 224px;
+    top: 73px;
+    right: 906px;
+    bottom: 72px;
+    left: 224px;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -677,6 +673,7 @@
     left: 616px;
     top: 106px;
     right: 229px;
+    bottom: 287px;
     text-align: left;
     margin-top: 0;
     padding: 0 0 8px 0;
@@ -698,6 +695,7 @@
     left: 615px;
     top: 166px;
     right: 230px;
+    bottom: 211px;
     margin-top: 0;
   }
 }
@@ -717,6 +715,7 @@
     left: 617px;
     top: 256px;
     right: 228px;
+    bottom: 137px;
   }
 }
 
