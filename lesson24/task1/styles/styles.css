@@ -667,7 +667,7 @@
         -ms-flex-direction: column;
             flex-direction: column;
     max-width: 555px;
-    margin-top: 106px;
+    margin: 106px 228px 105px 0;
   }
 }
 
@@ -685,9 +685,6 @@
 @media screen and (min-width: 1400px) {
   .order__title {
     text-align: left;
-    height: 48px;
-    line-height: 40px;
-    /*podozritelno t.k. d.b. 40px*/
     margin-top: 0;
     padding: 4px 0;
   }
