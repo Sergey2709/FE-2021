@@ -46,9 +46,9 @@ html {
 
 .price-card__title_title {
   margin: 0;
-  font-size: 35px;
+  font-size: 25px;
   font-weight: 700;
-  line-height: 43px;
+  line-height: 30px;
 }
 
 .price-card__title_subtitle {
