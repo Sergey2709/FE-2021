@@ -201,7 +201,8 @@ html {
 .badge {
   position: absolute;
   top: -17px;
-  right: -18px;
+  right: -17px;
+  bottom: 666px;
 }
 
 img {
