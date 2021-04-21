@@ -9,26 +9,20 @@ html {
 }
 
 .page {
+  position: relative;
   margin: auto;
   width: 1440px;
   height: 1000px;
   background: #141b1c;
-  //   padding: 112px 132px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.table {
-  display: flex;
 }
 
 .price-card {
+  display: inline-block;
   width: 380px;
   height: 770px;
   background-color: #334247;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
-  margin-right: 18px;
+  position: absolute;
 
   &__title {
     height: 130px;
@@ -143,6 +137,27 @@ html {
   }
 }
 
+.price-basic {
+  top: 115px;
+  bottom: 115px;
+  left: 132px;
+  right: 928px;
+}
+
+.price-business {
+  top: 115px;
+  bottom: 115px;
+  left: 530px;
+  right: 530px;
+}
+
+.price-webshop {
+  top: 115px;
+  bottom: 115px;
+  left: 928px;
+  right: 132px;
+}
+
 .price-card_popular {
   position: relative;
 }
@@ -151,10 +166,6 @@ html {
   position: absolute;
   top: -18px;
   right: -18px;
-}
-
-.price-card:last-child {
-  margin-right: 0;
 }
 
 img {
