@@ -17,6 +17,7 @@
     flex-direction: column;
 
     @include for-large-up {
+      position: relative;
       max-width: 100%;
       flex-direction: row;
     }
@@ -37,16 +38,17 @@
     }
   }
 
-  &__content {
-    @include for-large-up {
-      display: flex;
-      flex-direction: column;
-      max-width: 555px;
-      margin: 106px 228px 105px 0;
-    }
-  }
+  // &__content {
+  //   @include for-large-up {
+  //     display: flex;
+  //     flex-direction: column;
+  //     max-width: 555px;
+  //     margin: 106px 228px 105px 0;
+  //   }
+  // }
 
   &__title {
+    display: block;
     margin: 0;
     font-weight: 700;
     font-size: 40px;
@@ -57,6 +59,11 @@
     margin-top: 40px;
 
     @include for-large-up {
+      position: absolute;
+      width: 555px;
+      left: 616px;
+      top: 106px;
+      right: 229px;
       text-align: left;
       margin-top: 0;
       padding: 0 0 8px 0;
@@ -71,7 +78,12 @@
     margin-top: 18px;
 
     @include for-large-up {
-      margin-top: 12px;
+      position: absolute;
+      width: 555px;
+      left: 615px;
+      top: 166px;
+      right: 230px;
+      margin-top: 0;
     }
   }
 
@@ -80,7 +92,12 @@
 
     @include for-large-up {
       display: flex;
-      margin-top: 26px;
+      margin-top: 0;
+      width: 555px;
+      position: absolute;
+      left: 617px;
+      top: 256px;
+      right: 228px;
     }
   }
 
@@ -126,7 +143,13 @@
     color: rgba(43, 41, 45, 0.6);
 
     @include for-large-up {
+      position: absolute;
       width: 497px;
+      margin-top: 0;
+      left: 616px;
+      top: 314px;
+      right: 287px;
+      bottom: 105px;
     }
   }
 
