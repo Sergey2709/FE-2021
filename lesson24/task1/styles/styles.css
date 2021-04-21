@@ -771,7 +771,12 @@
   font-size: 14px;
   line-height: 22px;
   color: rgba(43, 41, 45, 0.6);
-  width: 497px;
+}
+
+@media screen and (min-width: 1400px) {
+  .order__terms {
+    width: 497px;
+  }
 }
 
 .order__terms-link {

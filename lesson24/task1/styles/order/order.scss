@@ -125,9 +125,9 @@
     line-height: 22px;
     color: rgba(43, 41, 45, 0.6);
 
-    // @include for-large-up {
-    width: 497px;
-    // }
+    @include for-large-up {
+      width: 497px;
+    }
   }
 
   &__terms-link {
