@@ -54,7 +54,7 @@ html {
 .price-card__title_subtitle {
   margin: 0;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 24px;
 }
 
@@ -183,10 +183,15 @@ html {
 }
 
 .price-webshop {
-  top: 115px;
+  height: 773px;
+  top: 112px;
   bottom: 115px;
   left: 928px;
   right: 132px;
+}
+
+.price-webshop__title {
+  height: 133px;
 }
 
 .price-card_popular {
@@ -195,7 +200,7 @@ html {
 
 .badge {
   position: absolute;
-  top: -18px;
+  top: -17px;
   right: -18px;
 }
 
