@@ -62,8 +62,7 @@ body {
 
 .price-card__price {
   height: 105px;
-  padding-top: 19px;
-  padding-bottom: 19px;
+  padding: 19px 110px;
 }
 
 .price-card__price-basic {
