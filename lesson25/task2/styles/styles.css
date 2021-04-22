@@ -73,15 +73,6 @@ body {
 
 .price-card__price {
   height: 105px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .price-card__price-basic {
@@ -100,7 +91,8 @@ body {
   margin: 0;
   font-weight: 700;
   font-size: 55px;
-  line-height: 67px;
+  line-height: 105px;
+  text-align: center;
 }
 
 .price-card__description {
