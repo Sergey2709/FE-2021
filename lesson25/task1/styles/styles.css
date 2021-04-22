@@ -9,6 +9,14 @@ html {
   color: #ffffff;
 }
 
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
 .page {
   position: relative;
   margin: auto;
