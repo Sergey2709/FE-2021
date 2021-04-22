@@ -87,7 +87,7 @@ body {
 .price-card__price {
   position: absolute;
   width: 100%;
-  height: 105px;
+  min-height: 105px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -111,6 +111,7 @@ body {
 
 .price-card__price-webshop {
   background-color: #ec632a;
+  top: 133px;
 }
 
 .price-card__price_information {
