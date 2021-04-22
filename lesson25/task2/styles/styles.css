@@ -81,6 +81,8 @@ body {
 .price-card__price_information {
   margin: 0;
   padding: 0;
+  width: 160px;
+  height: 67px;
   font-weight: 700;
   font-size: 55px;
   line-height: 67px;
