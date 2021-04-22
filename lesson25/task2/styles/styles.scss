@@ -19,10 +19,9 @@ body {
 
 .page {
   position: relative;
-  // margin: auto;
   width: 1176px;
   height: 773px;
-  // background: #141b1c;
+  //   height: 773px;
 }
 
 .price-card {
@@ -55,9 +54,6 @@ body {
 
   &__price {
     height: 105px;
-    // display: flex;
-    // align-items: center;
-    // justify-content: center;
 
     &-basic {
       background-color: #5bb189;
@@ -146,26 +142,21 @@ body {
 }
 
 .price-basic {
-  top: 3px;
-  // bottom: 115px;
-  // left: 132px;
-  // right: 928px;
+  //   top: 3px;
 }
 
 .price-business {
-  top: 3px;
-  // bottom: 115px;
+  //   top: 3px;
   left: 398px;
-  // right: 530px;
 }
 
 .price-webshop {
-  height: 773px;
+  //   height: 773px;
   left: 796px;
 
   &__title {
     height: 97px;
-    margin-top: 36px;
+    // margin-top: 36px;
   }
 }
 

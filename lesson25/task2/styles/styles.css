@@ -162,23 +162,16 @@ body {
   background-color: #ec632a;
 }
 
-.price-basic {
-  top: 3px;
-}
-
 .price-business {
-  top: 3px;
   left: 398px;
 }
 
 .price-webshop {
-  height: 773px;
   left: 796px;
 }
 
 .price-webshop__title {
   height: 97px;
-  margin-top: 36px;
 }
 
 .price-card_popular {
