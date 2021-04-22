@@ -12,14 +12,17 @@ body {
   display: flex;
   width: 100vw;
   height: 100vh;
+  background: #141b1c;
+  align-items: center;
+  justify-content: center;
 }
 
 .page {
   position: relative;
-  margin: auto;
-  width: 1440px;
-  height: 1000px;
-  background: #141b1c;
+  // margin: auto;
+  width: 1176px;
+  height: 773px;
+  // background: #141b1c;
 }
 
 .price-card {
@@ -184,25 +187,23 @@ body {
 
 //Абсолютное позиционирование блоков на пейдж
 .price-basic {
-  top: 115px;
-  bottom: 115px;
-  left: 132px;
-  right: 928px;
+  top: 3px;
+  // bottom: 115px;
+  // left: 132px;
+  // right: 928px;
 }
 
 .price-business {
-  top: 115px;
-  bottom: 115px;
-  left: 530px;
-  right: 530px;
+  top: 3px;
+  // bottom: 115px;
+  left: 398px;
+  // right: 530px;
 }
 
 .price-webshop {
   height: 773px;
-  top: 112px;
-  bottom: 115px;
-  left: 928px;
-  right: 132px;
+
+  left: 796px;
 }
 //Абсолютное позиционирование блоков на пейдж
 
