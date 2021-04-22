@@ -62,6 +62,8 @@ body {
 
 .price-card__price {
   height: 105px;
+  padding-top: 19px;
+  padding-bottom: 19px;
 }
 
 .price-card__price-basic {
@@ -80,7 +82,7 @@ body {
   margin: 0;
   font-weight: 700;
   font-size: 55px;
-  line-height: 105px;
+  line-height: 67px;
   text-align: center;
 }
 

@@ -54,6 +54,8 @@ body {
 
   &__price {
     height: 105px;
+    padding-top: 19px;
+    padding-bottom: 19px;
 
     &-basic {
       background-color: #5bb189;
@@ -71,7 +73,7 @@ body {
       margin: 0;
       font-weight: 700;
       font-size: 55px;
-      line-height: 105px;
+      line-height: 67px;
       text-align: center;
     }
   }
@@ -141,22 +143,15 @@ body {
   }
 }
 
-.price-basic {
-  //   top: 3px;
-}
-
 .price-business {
-  //   top: 3px;
   left: 398px;
 }
 
 .price-webshop {
-  //   height: 773px;
   left: 796px;
 
   &__title {
     height: 97px;
-    // margin-top: 36px;
   }
 }
 
