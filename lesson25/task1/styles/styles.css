@@ -44,7 +44,7 @@ body {
   height: 64px;
   position: relative;
   top: 33px;
-  bottom: 33px;
+  bottom: 673px;
 }
 
 .price-card__title-basic {
@@ -98,6 +98,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   bottom: 535px;
+  top: 130px;
 }
 
 .price-card__price-basic {
@@ -114,9 +115,11 @@ body {
 
 .price-card__price_information {
   margin: 0;
+  width: 160px;
   font-weight: 700;
   font-size: 55px;
   line-height: 67px;
+  text-align: center;
 }
 
 .price-card__description {

@@ -38,7 +38,7 @@ body {
     height: 64px;
     position: relative;
     top: 33px;
-    bottom: 33px;
+    bottom: 673px;
 
     &-basic {
       left: 140px;
@@ -88,6 +88,7 @@ body {
     align-items: center;
     justify-content: center;
     bottom: 535px;
+    top: 130px;
 
     &-basic {
       background-color: #5bb189;
@@ -103,9 +104,11 @@ body {
 
     &_information {
       margin: 0;
+      width: 160px;
       font-weight: 700;
       font-size: 55px;
       line-height: 67px;
+      text-align: center;
     }
   }
   //абсолютное позиционирование price в блоках The END
