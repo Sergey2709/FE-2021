@@ -1,0 +1,30 @@
+.page-header {
+  margin-left: 80px;
+
+  &__navigation {
+    display: none;
+  }
+
+  &__upload-btn {
+    display: none;
+  }
+}
+
+.logo {
+  width: 180px;
+  height: 50px;
+  position: relative;
+
+  &-text {
+    margin: 0;
+    width: 100px;
+    position: absolute;
+    left: 33.33%;
+    top: calc(50% - 30px / 2);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #1968fc;
+  }
+}
