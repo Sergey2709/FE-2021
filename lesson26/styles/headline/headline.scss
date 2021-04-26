@@ -2,6 +2,13 @@
   margin-top: 80px;
   position: relative;
 
+  @include for-large-up {
+    width: 1120px;
+    height: 552px;
+    margin: 150px auto 0 auto;
+    padding: 0;
+  }
+
   &__title {
     width: 480px;
     margin: 0;
@@ -11,6 +18,13 @@
     letter-spacing: 1px;
     color: #11223f;
     margin: 0 80px;
+
+    @include for-large-up {
+      width: 600px;
+      height: 120px;
+      margin: 0;
+      padding: 0;
+    }
   }
 
   &__description {
@@ -21,10 +35,28 @@
     line-height: 40px;
     color: #11223f;
     margin: 20px 80px 0 80px;
+
+    @include for-large-up {
+      width: 600px;
+      height: 80px;
+      margin: 0;
+      margin-top: 20px;
+      padding: 0;
+    }
   }
 
   &__upload-btn_large {
     display: none;
+
+    @include for-large-up {
+      margin-top: 40px;
+      display: flex;
+      width: 300px;
+      height: 50px;
+      border: none;
+      background-color: #1968fc;
+      box-shadow: 0px 10px 40px rgba(25, 104, 252, 0.3);
+    }
   }
 
   &__upload-btn_small {
@@ -37,6 +69,11 @@
     height: 50px;
     background: #1968fc;
     box-shadow: 0px 10px 40px rgba(25, 104, 252, 0.3);
+    border: none;
+
+    @include for-large-up {
+      display: none;
+    }
   }
 
   &__upload-btn-text_small {
@@ -48,8 +85,26 @@
     text-shadow: 0px 10px 40px rgba(25, 104, 252, 0.2);
   }
 
+  &__upload-btn-text_large {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    margin: auto;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-shadow: 0px 10px 40px rgba(25, 104, 252, 0.2);
+  }
+
   &__illustration {
     margin: 80px 0 0 20px;
+
+    @include for-large-up {
+      position: absolute;
+      margin: 0;
+      left: 521px;
+      // bottom: 0;
+      top: 50px;
+    }
   }
 
   &__link-block {
@@ -63,6 +118,10 @@
     align-items: center;
     justify-content: center;
     background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/PleaseVisitDesktopSiteSectionBackground.png);
+
+    @include for-large-up {
+      display: none;
+    }
   }
 
   &__link-text {

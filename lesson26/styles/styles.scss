@@ -6,6 +6,9 @@
 @import 'features/features.scss';
 @import 'users/users.scss';
 @import 'purposes/purposes.scss';
+@import 'consultation/consultatin.scss';
+@import 'stories/stories.scss';
+@import 'footer/footer.scss';
 @import 'common/common.scss';
 
 * {
@@ -18,10 +21,16 @@ html {
   width: 100vw;
 }
 
+body {
+  display: flex;
+  justify-content: center;
+}
+
 .page {
   max-width: 1440px;
-  max-height: 3390px;
+  max-height: 6820px; /*10px lishnikh*/
   padding-top: 40px;
+  padding-bottom: 90px;
   background-image: linear-gradient(
     180deg,
     rgba(25, 104, 252, 0.0001) 0%,
@@ -29,4 +38,15 @@ html {
     rgba(25, 104, 252, 0.0001) 99.94%,
     rgba(25, 104, 252, 0.05) 100%
   );
+
+  @include for-large-up {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 0;
+    width: 1440px;
+    max-height: 3843px;
+    padding: 0;
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/BackgroundDecor.png);
+  }
 }

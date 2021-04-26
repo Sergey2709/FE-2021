@@ -26,14 +26,12 @@
           />
           <p class="logo-text">VanGoux</p>
         </div>
-        <nav class="page-header__navigation">
-          <ul class="page-header__navigation-list">
-            <li class="page-header__navigation-item"><a href="#">How it works</a></li>
-            <li class="page-header__navigation-item"><a href="#">Features</a></li>
-            <li class="page-header__navigation-item"><a href="#">Use cases</a></li>
-            <li class="page-header__navigation-item"><a href="#">Schedule a demo</a></li>
-          </ul>
-        </nav>
+        <div class="page-header__navigation">
+          <div class="page-header__navigation-item">How it works</div>
+          <div class="page-header__navigation-item">Features</div>
+          <div class="page-header__navigation-item">Use cases</div>
+          <div class="page-header__navigation-item navigation-last">Schedule a demo</div>
+        </div>
         <button class="page-header__upload-btn">
           <span class="page-header__upload-btn-text">UPLOAD SKETCH</span>
         </button>
@@ -285,7 +283,7 @@
         <h2 class="purposes__title-desktop">What can you do with VanGoux</h2>
         <h2 class="purposes__title-mobile">What can you build with VanGoux</h2>
         <hr class="title-line" />
-        <div class="purpose">
+        <div class="purpose purpose-first">
           <img
             class="purpose__icon"
             src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/IconSolidRealisticPrototype.png"
@@ -318,6 +316,102 @@
           <p class="purpose__description">Generate a design system for your product</p>
         </div>
       </section>
+
+      <!-- CONSULTATION -->
+
+      <section class="consultation">
+        <h2 class="consultation__title">Don’t know how to work with code?</h2>
+        <hr class="title-line" />
+        <p class="consultation__description">
+          Schedule a call and we'll show you how you could become a design-to-code rockstar using
+          VanGoux.
+        </p>
+        <button class="consultation__button">
+          <span class="consultation__button-text">Schedule a call with us</span>
+        </button>
+        <img
+          class="consultation__illustration"
+          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/IllustrationWhiteglove.png"
+          alt="WhiteGlow Icon"
+        />
+      </section>
+
+      <!-- STORIES -->
+
+      <section class="stories">
+        <h2 class="stories__title">Our story</h2>
+        <hr class="title-line" />
+        <div class="story-card story-card-first">
+          <img
+            class="story-card__icon"
+            src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/IconWhoWeAre.png"
+            alt="WhoWeAre Icon"
+          />
+          <h3 class="story-card__title">Who are we?</h3>
+          <p class="story-card__description1">
+            Hi! We are Tom & Kay — two passionate engineers of user experience. Building things
+            people want makes us happy!<br /><br />Kay is a former Googler and Tom is a startup
+            veteran. We started VanGoux because it didn’t make sense to us that UI designs needed to
+            be recreated in code from scratch.
+          </p>
+        </div>
+        <div class="story-card">
+          <img
+            class="story-card__icon"
+            src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/IconStarryNight.png"
+            alt="StarryNight Icon"
+          />
+          <h3 class="story-card__title">What’s up with the name?</h3>
+          <p class="story-card__description2">
+            VanGoux is pronounced Van Gogh — as in Vincent Van Gogh meets UX.<br /><br />Vincent
+            transformed anguish to ecstatic beauty through his art. This name is our way of honoring
+            his profound work.<br /><br />Check out
+            <span class="text-decoration">Dr. Who doing something similar.</span>
+          </p>
+        </div>
+      </section>
+
+      <!-- footer -->
+
+      <footer class="page-footer">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <img
+              class="footer-logo__icon"
+              src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/LogoSmallSolid.png"
+              alt="LogoSmall Icon"
+            />
+            <p class="footer-logo__text">Site made with VanGoux</p>
+          </div>
+          <nav class="footer-content__navigation">
+            <a href="#">Contact</a>
+            <a href="#">Feedback</a>
+            <a href="#">Join our Slack</a>
+            <a href="#">Terms</a>
+          </nav>
+          <div class="footer-content__social">
+            <div class="footer-content__social-block">
+              <img
+                class="footer-content__social-icon"
+                src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/IconFacebook.png"
+                alt="Facebook Icon"
+              />
+            </div>
+            <div class="footer-content__social-block">
+              <img
+                class="footer-content__social-icon"
+                src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/IconInstagram.png"
+                alt="Instargram Icon"
+              />
+            </div>
+          </div>
+        </div>
+        <img
+          class="footer__icon"
+          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/VincentIllustration.png"
+          alt="Vincent Icon"
+        />
+      </footer>
     </div>
   </body>
 </html>

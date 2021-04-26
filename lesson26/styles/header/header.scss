@@ -1,30 +1,79 @@
 .page-header {
   margin-left: 80px;
 
+  @include for-large-up {
+    margin: 0;
+    margin: 30px auto 0 auto;
+    width: 1120px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+  }
+
   &__navigation {
     display: none;
+    width: 540px;
+    height: 50px;
+    padding: 0;
+    margin-left: 200px;
+
+    &-item {
+      width: 120px;
+      text-align: center;
+    }
+
+    @include for-large-up {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 50px;
+    }
   }
 
   &__upload-btn {
     display: none;
+
+    @include for-large-up {
+      display: block;
+      margin-left: auto;
+    }
   }
+
+  &__upload-btn {
+    width: 180px;
+    height: 50px;
+    border: none;
+    background-color: #1968fc;
+    box-shadow: 0px 10px 40px rgba(25, 104, 252, 0.3);
+  }
+}
+
+a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
 }
 
 .logo {
   width: 180px;
   height: 50px;
-  position: relative;
+  display: flex;
+  align-items: center;
 
   &-text {
     margin: 0;
+    margin-left: 10px;
     width: 100px;
-    position: absolute;
-    left: 33.33%;
-    top: calc(50% - 30px / 2);
     font-weight: 600;
     font-size: 20px;
     line-height: 30px;
     text-align: center;
     color: #1968fc;
   }
+}
+
+.navigation-last {
+  width: 180px;
 }
