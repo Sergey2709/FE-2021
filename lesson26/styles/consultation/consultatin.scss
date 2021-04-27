@@ -5,6 +5,14 @@
   height: 460px;
   background-color: #1968fc;
 
+  @include for-large-up {
+    margin-top: 120px;
+    padding: 0 0 0 120px;
+    width: 1440px;
+    height: 450px;
+    position: relative;
+  }
+
   &__title {
     margin: 0;
     font-weight: 700;
@@ -14,6 +22,12 @@
     align-items: center;
     text-transform: uppercase;
     color: #ffffff;
+
+    @include for-large-up {
+      margin: 80px 160px 0 40px;
+      width: 1120px;
+      height: 60px;
+    }
   }
 
   &__description {
@@ -26,6 +40,13 @@
     display: flex;
     align-items: center;
     color: #ffffff;
+
+    @include for-large-up {
+      width: 640px;
+      margin-top: 48px;
+      margin-left: 40px;
+      padding-right: 20px;
+    }
   }
 
   &__button {
@@ -37,6 +58,10 @@
     border: none;
     display: flex;
     justify-content: center;
+
+    @include for-large-up {
+      margin-left: 40px;
+    }
 
     &-text {
       height: 50px;
@@ -53,5 +78,12 @@
 
   &__illustration {
     display: none;
+
+    @include for-large-up {
+      display: block;
+      position: absolute;
+      top: 20px;
+      right: -1px;
+    }
   }
 }

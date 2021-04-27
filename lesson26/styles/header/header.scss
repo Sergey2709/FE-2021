@@ -45,6 +45,18 @@
     border: none;
     background-color: #1968fc;
     box-shadow: 0px 10px 40px rgba(25, 104, 252, 0.3);
+
+    &-text {
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 20px;
+      // display: flex;
+      // align-items: center;
+      // text-align: center;
+      text-transform: uppercase;
+      color: #ffffff;
+      text-shadow: 0px 10px 40px rgba(25, 104, 252, 0.2);
+    }
   }
 }
 
