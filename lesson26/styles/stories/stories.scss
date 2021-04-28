@@ -4,9 +4,10 @@
   height: 719px;
 
   @include for-large-up {
-    margin: 120px 160px 0 120px;
-    width: 1160px;
-    height: 420px;
+    margin: 0px;
+    padding: 120px 160px 120px 120px;
+    width: 1440px;
+    height: 660px;
     background-color: #f2f2f2;
   }
 

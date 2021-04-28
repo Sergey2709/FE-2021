@@ -7,6 +7,13 @@
   align-items: center;
   padding-left: 40px;
   position: relative;
+
+  @include for-large-up {
+    margin: 0;
+    padding: 40px 0 40px 160px;
+    width: 1440px;
+    height: 130px;
+  }
 }
 
 .footer-content {
@@ -14,6 +21,24 @@
 
   &__navigation {
     display: none;
+
+    @include for-large-up {
+      display: flex;
+      width: 480px;
+      height: 50px;
+      margin-left: 70px;
+    }
+
+    &-item {
+      width: 120px;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #000000;
+    }
   }
 
   &__social {
@@ -51,4 +76,12 @@
   width: 55px;
   height: 60px;
   filter: drop-shadow(2px 6px 12px rgba(255, 131, 51, 0.3));
+
+  @include for-large-up {
+    width: 90px;
+    height: 100px;
+    top: 30px;
+    right: 160px;
+    filter: drop-shadow(4px 10px 20px rgba(255, 131, 51, 0.3));
+  }
 }
