@@ -236,13 +236,12 @@
 }
 .logo-text {
   margin-left: 10px;
-  padding-top: 7px;
+  padding-top: 5px;
   width: 100px;
+  height: 30px;
   font-weight: 600;
   font-size: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
   color: #1968fc;
 }
 
