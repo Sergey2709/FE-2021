@@ -75,15 +75,29 @@ a {
   align-items: center;
 
   &-text {
-    margin: 0;
+    margin: auto;
     margin-left: 10px;
     width: 100px;
+    height: 30px;
     font-weight: 600;
     font-size: 20px;
     line-height: 30px;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    // text-align: center;
     color: #1968fc;
   }
+
+  // &__description {
+  //   margin: auto;
+  //   width: 400px;
+  //   height: 40px;
+  //   font-weight: 600;
+  //   font-size: 18px;
+  //   line-height: 40px;
+  //   display: flex;
+  //   align-items: center;
+  //   color: #000000;
 }
 
 .navigation-last {
