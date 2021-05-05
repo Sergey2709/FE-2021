@@ -191,7 +191,7 @@
     display: flex;
     height: 50px;
     width: 540px;
-    margin-left: 220px;
+    margin-left: 200px;
   }
 }
 .page-header__navigation-item {
@@ -219,25 +219,13 @@
 .page-header__upload-btn-text {
   font-weight: 700;
   font-size: 14px;
-  line-height: 20px;
-  display: flex;
-  align-items: center;
-  text-align: center;
+  line-height: 50px;
   text-transform: uppercase;
   color: #ffffff;
-  text-shadow: 0px 10px 40px rgba(25, 104, 252, 0.2);
-}
-
-a {
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 20px;
-  color: #000000;
 }
 
 .logo {
-  width: 160px;
+  width: 180px;
   height: 50px;
   display: flex;
   align-items: center;
@@ -250,6 +238,7 @@ a {
   font-size: 20px;
   display: flex;
   align-items: center;
+  justify-content: center;
   color: #1968fc;
 }
 
