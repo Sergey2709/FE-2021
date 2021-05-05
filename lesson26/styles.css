@@ -235,13 +235,13 @@
   align-items: center;
 }
 .logo-text {
-  margin-left: 10px;
   padding-top: 8px;
   width: 100px;
   height: 30px;
   font-weight: 600;
   font-size: 20px;
-  text-align: center;
+  display: flex;
+  justify-content: flex-end;
   color: #1968fc;
 }
 
@@ -1156,6 +1156,7 @@ body {
 }
 
 .page {
+  margin: 0;
   max-width: 1440px;
   max-height: 6820px;
   /*10px lishnikh*/
