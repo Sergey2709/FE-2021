@@ -6,7 +6,7 @@
 @import 'features.scss';
 @import 'users.scss';
 @import 'purposes.scss';
-@import 'consultatin.scss';
+@import 'consultation.scss';
 @import 'stories.scss';
 @import 'footer.scss';
 @import 'common.scss';
@@ -29,7 +29,7 @@ body {
 .page {
   margin: 0;
   max-width: 1440px;
-  max-height: 6820px; /*10px lishnikh*/
+  max-height: 6820px;
   padding-top: 40px;
   padding-bottom: 90px;
   background-image: linear-gradient(
@@ -46,7 +46,7 @@ body {
     margin: auto;
     padding: 0;
     width: 1440px;
-    min-height: 3843px; /*max-height sdelat*/
+    min-height: 3843px;
     padding: 0;
     background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/BackgroundDecor.png);
   }

@@ -256,7 +256,6 @@
 @media screen and (min-width: 1024px) {
   .headline {
     width: 1120px;
-    height: 552px;
     margin: 150px auto 0 auto;
     padding: 0;
   }
@@ -1159,7 +1158,6 @@ body {
   margin: 0;
   max-width: 1440px;
   max-height: 6820px;
-  /*10px lishnikh*/
   padding-top: 40px;
   padding-bottom: 90px;
   background-image: linear-gradient(180deg, rgba(25, 104, 252, 0.0001) 0%, rgba(25, 104, 252, 0.05) 23.07%, rgba(25, 104, 252, 0.0001) 99.94%, rgba(25, 104, 252, 0.05) 100%);
@@ -1172,7 +1170,6 @@ body {
     padding: 0;
     width: 1440px;
     min-height: 3843px;
-    /*max-height sdelat*/
     padding: 0;
     background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/BackgroundDecor.png);
   }
