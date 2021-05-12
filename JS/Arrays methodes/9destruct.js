@@ -1,3 +1,7 @@
+// Даны 2 массива: список всех студентов; и тех кто
+// не допущен к экзаменам. Создать сообщение для тех
+// кто допущен.
+
 const getMessagesForBestStudents = (allStudentsList, studentsForRetake) =>
   allStudentsList
     .slice()
@@ -10,7 +14,7 @@ const getMessagesForBestStudents = (allStudentsList, studentsForRetake) =>
 const allStud = ['a', 'b', 'c', 'd'];
 const retakeStud = ['b', 'd'];
 
-console.log(getMessagesForBestStudents(allStud, retakeStud));
+getMessagesForBestStudents(allStud, retakeStud);
 
 //output:
 //['Good job, a', 'Good job, c']
