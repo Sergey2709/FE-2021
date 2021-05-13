@@ -1,7 +1,7 @@
 const getTotalRevenue = transactions => {
   let result = 0;
-  dayTransactions.forEach(obj => result += obj.amount);
-  console.log(result);
+  transactions.forEach(obj => (result += obj.amount));
+  return result;
 };
 
 // examples
@@ -12,3 +12,4 @@ const dayTransactions = [
 ];
 
 const result = getTotalRevenue(dayTransactions); // ==> 310
+console.log(result);
