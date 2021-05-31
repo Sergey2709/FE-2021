@@ -5,8 +5,10 @@ export const getTitleElement = titleElements => {
 };
 
 export const getInputElement = inputElements => {
-  const inputElem = document.querySelector('.text');
+  const inputElem = document.querySelector('text');
   console.dir(inputElem);
   return inputElem;
 };
 
+// getTitleElement();
+// getInputElement();
