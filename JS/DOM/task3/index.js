@@ -11,5 +11,5 @@ export const getItemsArray = listItems => {
   return elementsArray;
 };
 
-getItemsList();
-getItemsArray();
+// getItemsList();
+// getItemsArray();
