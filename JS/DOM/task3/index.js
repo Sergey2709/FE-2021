@@ -9,5 +9,5 @@ export const getItemsArray = listItems => {
   console.dir(elementsArray);
 };
 
-getItemsList();
-getItemsArray();
+// getItemsList();
+// getItemsArray();
