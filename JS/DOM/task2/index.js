@@ -5,10 +5,10 @@ export const getTitleElement = titleElements => {
 };
 
 export const getInputElement = inputElements => {
-  const inputElem = document.getElementsByTagName('input', type='text');
+  const inputElem = document.getElementsByTagName('input');
   console.dir(inputElem);
   return inputElem;
 };
 
-getTitleElement();
-getInputElement();
+// getTitleElement();
+// getInputElement();
