@@ -1,4 +1,4 @@
-export const setTitle = text => {
+const setTitle = text => {
   const elem = document.querySelector('.title');
   const newTitle = (elem.textContent = text);
   console.dir(newTitle);
