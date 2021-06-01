@@ -1,8 +1,8 @@
-export const getTitle = text => {
+export const setTitle = text => {
   const elem = document.querySelector('.title');
   const newTitle = (elem.textContent = text);
   console.dir(newTitle);
   return newTitle;
 };
 
-getTitle('Grom');
+setTitle('Grom');
