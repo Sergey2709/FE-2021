@@ -4,10 +4,10 @@ function increaseEvenEl(arr, delta) {
   }
 
   return arr.map(num => {
-      if (num % 2 === 0) {
-          return num += delta;
-      }
-      return num;
+    if (num % 2 === 0) {
+      return (num += delta);
+    }
+    return num;
   });
 }
 
