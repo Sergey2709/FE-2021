@@ -5,17 +5,18 @@
  * Чтобы eslint не ругался на эту ошибку, для этой задачи он отключен аннотацией eslint-disable
  * */
 
-const pickProps = (obj, props) => {
-  let newObj = {};
+const getAdults = obj => {
+  const newObj = {};
 
-  for (let key in obj) {
-      if (props.includes(key)) {
-          newObj[key] = obj[key];
-      }
+  for (const key in obj) {
+    if (obj[key] >= 18) {
+      newObj[key] = obj[key];
+    }
   }
+
   return newObj;
 };
 
 // examples
-// pickProps({ a: 1, b: 2, c: 3 }, ['a', 'c']); // ==> { a: 1, c: 3 }
-console.log(pickProps({ a: 1, b: 2, c: 3 }, ['a', 'c', 'd', 'hex'])); // ==> { a: 1, c: 3 }
+console.log(getAdults({ 'John Doe': 19, Tom: 17, Bob: 18 })); // ==> { 'John Doe': 19, Bob: 18 }
+// getAdults({ Ann: 56, Andrey: 7 }); // ==> { Ann: 56 }

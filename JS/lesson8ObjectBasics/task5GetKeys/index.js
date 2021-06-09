@@ -11,10 +11,20 @@ const obj = {
   age: 17,
 };
 
-function getKeys(obj) {
-  for (let key in obj) {
-      console.log(key);
+function getKeys() {
+  for (const key in obj) {
+    console.log(key);
   }
 }
 
 getKeys(obj);
+
+// Тут интересная ситуация код вверху работает и еслинт не
+// ругается, но не проходит валидацию, а код снизу проходит
+// валидацию, но не нравится еслинту...
+
+// function getKeys(obj) {
+//   for (const key in obj) {
+//     console.log(key);
+//   }
+// }

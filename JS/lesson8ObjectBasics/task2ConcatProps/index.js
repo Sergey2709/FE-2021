@@ -6,11 +6,14 @@
  * Чтобы eslint не ругался на эту ошибку, для этой задачи он отключен аннотацией eslint-disable
  * */
 
-const concatProps = obj => {
-  let arr = [];
 
-  for (let key in obj) {
-      arr.push(obj[key]);
+// Здесь аналогичная ситуация let => const
+
+const concatProps = obj => {
+  const arr = [];
+
+  for (const key in obj) {
+    arr.push(obj[key]);
   }
 
   return arr;
