@@ -1,28 +1,29 @@
+const listNumbers = [1, 2, 3, 4, 5, 6, 7, 8];
+
 const finishList = list => {
   const listElements = document.querySelector('.list');
-  const items = [...document.querySelectorAll('.list li')];
-  let arr = [];
+  let items = [...document.querySelectorAll('.list li')];
 
-  for (let i = 1; i <= 8; i++) {
-    const listItemElem = document.createElement('li');
-    const textElem = (listItemElem.textContent = `${i}`);
-    arr.push(listItemElem);
-  }
+  const newItem = items.map(el => el.innerHTML);
 
-  // for (let i = 0; i <= items.length; i++) {
-  //   if (arr.includes(items[i])) {
-  //     continue;
-  //   } else {
-  //     console.log(items[i]);
-  //   }
-    
-  // }
+  const newArr = listNumbers.map((el) => {
+    const newLi = document.createElement(`li`);
+    newLi.textContent = el;
 
-  // const result = [...new Set(listElements)].sort(function (a, b) {
-  //   return a.innerHTML - b.innerHTML;
-  // });
-  // console.log(arr);
-  return arr;
+    if (!newItem.includes(`${el}`)) {
+      listElements.append(newLi);
+    }
+    return newLi;
+  });
+
+  items = [...document.querySelectorAll('.list li')].sort((a, b) => a.innerHTML - b.innerHTML);
+
+  listElements.innerHTML = '';
+
+  items.forEach(element => {
+    listElements.append(element);
+  });
+  return listElements;
 };
 
-finishList();
+console.log(finishList());
