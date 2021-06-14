@@ -1,5 +1,5 @@
-const button = document.querySelector('.search__btn');
+const userCheckbox = document.querySelector('.task-status');
 
-button.addEventListener('click', () => {
-  console.log(button.previousSibling.previousElementSibling.value);
+userCheckbox.addEventListener('change', checkboxElem => {
+  console.log(checkboxElem.target.checked);
 });

@@ -1,10 +1,10 @@
-const button = document.querySelector('button');
-const button2 = document.querySelector('.btn').nextElementSibling;
+const button = document.querySelector('.single-use-btn');
 
-
-const handleClick = (event) => {
-  console.log(event.target.textContent);
+const eventClick = () => {
+  console.log('clicked');
+  button.removeEventListener('click', eventClick);
 };
 
-button.addEventListener('click', handleClick);
-button2.addEventListener('click', handleClick);
+button.addEventListener('click', eventClick);
+
+// button.removeEventListener('click', eventClick);
