@@ -17,8 +17,8 @@ const logTarget = (text, color) => {
 // const buttonAttachHandlers = document.querySelector('.attach-handlers-btn');
 // buttonAttachHandlers.addEventListener('click', logTarget);
 
-// const buttonRemoveHandlers = document.querySelector('.remove-handlers-btn');
-// buttonRemoveHandlers.removeEventListener('click', logTarget);
+const buttonRemoveHandlers = document.querySelector('.remove-handlers-btn');
+buttonRemoveHandlers.removeEventListener('click', logTarget);
 
 const logGreenDiv = logTarget.bind(null, 'DIV', 'green');
 const logGreenP = logTarget.bind(null, 'P', 'green');
