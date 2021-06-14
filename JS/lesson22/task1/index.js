@@ -4,21 +4,11 @@ const spanElem = document.querySelector('.rect_span');
 const clearListElems = document.querySelector('.events-list');
 clearListElems.innerHTML = '';
 
-
-
 const logTarget = (text, color) => {
   const eventsListElem = document.querySelector('.events-list');
 
   eventsListElem.innerHTML += `<span style="color: ${color}; margin-left: 8px;">${text}</span>`;
 };
-
-
-
-// const buttonAttachHandlers = document.querySelector('.attach-handlers-btn');
-// buttonAttachHandlers.addEventListener('click', logTarget);
-
-const buttonRemoveHandlers = document.querySelector('.remove-handlers-btn');
-buttonRemoveHandlers.removeEventListener('click', logTarget);
 
 const logGreenDiv = logTarget.bind(null, 'DIV', 'green');
 const logGreenP = logTarget.bind(null, 'P', 'green');
@@ -28,17 +18,22 @@ const logGreyDiv = logTarget.bind(null, 'DIV', 'grey');
 const logGreyP = logTarget.bind(null, 'P', 'grey');
 const logGreySpan = logTarget.bind(null, 'SPAN', 'grey');
 
+const handlers = () => {
+  divElem.addEventListener('click', logGreyDiv, true);
+  divElem.addEventListener('click', logGreenDiv);
 
+  pElem.addEventListener('click', logGreyP, true);
+  pElem.addEventListener('click', logGreenP);
 
+  spanElem.addEventListener('click', logGreySpan, true);
+  spanElem.addEventListener('click', logGreenSpan);
+};
 
-divElem.addEventListener('click', logGreyDiv, true);
-divElem.addEventListener('click', logGreenDiv);
+const buttonAttachHandlers = document.querySelector('.attach-handlers-btn');
+buttonAttachHandlers.addEventListener('click', handlers);
 
-pElem.addEventListener('click', logGreyP, true);
-pElem.addEventListener('click', logGreenP);
-
-spanElem.addEventListener('click', logGreySpan, true);
-spanElem.addEventListener('click', logGreenSpan);
+const buttonRemoveHandlers = document.querySelector('.remove-handlers-btn');
+buttonRemoveHandlers.removeEventListener('click', handlers);
 
 const buttonClear = document.querySelector('.clear-btn');
 
