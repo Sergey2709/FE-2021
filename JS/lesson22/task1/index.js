@@ -20,7 +20,16 @@ const logGreyDiv = logTarget.bind(null, 'DIV', 'grey');
 const logGreyP = logTarget.bind(null, 'P', 'grey');
 const logGreySpan = logTarget.bind(null, 'SPAN', 'grey');
 
-// buttonAttachHandlers.addEventListener('click', () => {
+divElem.addEventListener('click', logGreyDiv, true);
+divElem.addEventListener('click', logGreenDiv);
+
+pElem.addEventListener('click', logGreyP, true);
+pElem.addEventListener('click', logGreenP);
+
+spanElem.addEventListener('click', logGreySpan, true);
+spanElem.addEventListener('click', logGreenSpan);
+
+buttonAttachHandlers.addEventListener('click', () => {
   divElem.addEventListener('click', logGreyDiv, true);
   divElem.addEventListener('click', logGreenDiv);
 
@@ -29,7 +38,9 @@ const logGreySpan = logTarget.bind(null, 'SPAN', 'grey');
 
   spanElem.addEventListener('click', logGreySpan, true);
   spanElem.addEventListener('click', logGreenSpan);
-// });
+});
+
+
 
 buttonRemoveHandlers.addEventListener('click', () => {
   divElem.removeEventListener('click', logGreyDiv, true);
