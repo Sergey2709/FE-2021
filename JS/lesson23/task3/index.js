@@ -68,6 +68,11 @@ const getCheckedElem = event => {
 
 const createNewTask = event => {
   const inputField = document.querySelector('.task-input');
+
+  if (!inputField.value) {
+    return;
+  }
+  
   const newTask = {
     text: `${inputField.value}`,
     done: false,
