@@ -5,10 +5,10 @@ const rooms = {
 };
 
 const getPeople = obj => {
-  let resultArr = [];
-  const arrArrows = Object.values(obj)
+  const resultArr = [];
+  Object.values(obj)
     .flat()
-    .forEach(obj => resultArr.push(obj.name));
+    .forEach(obj  => resultArr.push(obj.name));
   return resultArr;
 };
 

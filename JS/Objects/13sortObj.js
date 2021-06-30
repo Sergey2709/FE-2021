@@ -17,21 +17,46 @@ const customers = {
   },
 };
 
+// const getCustomersList = obj => {
+//   // const newArr = [];
+//   let newObj;
+//   const arrObjects = Object.entries(obj);
+//   // console.log(arrObjects);
+//   const sortArr = arrObjects.sort((a, b) => (a.age > b.age ? 1 : -1));
+
+//   const newArr = sortArr.map(element => {
+//     // console.log(element);
+//     newObj = { ...element[1] };
+//     newObj.id = element[0];
+//     return newObj;
+//   });
+
+//   // for (let i = 0; i < sortArr.length; i+=1) {
+//   //     newObj = { ...sortArr[i][1] };
+//   //     newObj.id = sortArr[i][0];
+//   //     newArr.push(newObj);
+//   // }
+
+//   return newArr;
+// };
+
 const getCustomersList = obj => {
-  let newArr = [];
-  let newObj;
   const arrObjects = Object.entries(obj);
   const sortArr = arrObjects.sort((a, b) => (a.age > b.age ? 1 : -1));
-  for (let i = 0; i < sortArr.length; i++) {
-      newObj = { ...sortArr[i][1] };
-      newObj.id = sortArr[i][0];
-      newArr.push(newObj);
-  }
+
+  const newArr = sortArr.map(element => {
+    const newObj = { ...element[1] };
+    newObj.id = element[0];
+    return newObj;
+  });
+
   return newArr;
 };
 
 console.log(getCustomersList(customers));
 console.log(customers);
+
+// getCustomersList(customers);
 
 // let users = [
 //   { name: 'John', age: 20, surname: 'Johnson' },

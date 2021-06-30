@@ -49,7 +49,7 @@ const getCheckedElem = event => {
 
   tasks.filter(elem => {
     if (elem.done === false) {
-      if (elem.id === +idCheckedElem) {
+      if (elem.id === +idCheckedElem && elem.done === false) {
         elem.done = true;
       }
       return elem;
@@ -72,7 +72,7 @@ const createNewTask = event => {
   if (!inputField.value) {
     return;
   }
-  
+
   const newTask = {
     text: `${inputField.value}`,
     done: false,

@@ -2,11 +2,11 @@
 // Валидатор пройден
 
 const withdraw = (clients, balances, client, amount) => {
-  const x = clients.indexOf(client);
+  const indexOfClient = clients.indexOf(client);
 
-  if (amount > balances[x]) {
+  if (amount > balances[indexOfClient]) {
     return -1;
   }
 
-  return (balances[x] - amount);
+  return (balances[indexOfClient] - amount);
 };

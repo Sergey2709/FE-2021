@@ -4,9 +4,9 @@ const users = {
   Bob: 18,
 };
 
-function getKeys(obj) {
+const getKeys = obj => {
   const arrKeys = Object.keys(obj);
   arrKeys.forEach(num => console.log(num));
-}
+};
 
 getKeys(users);

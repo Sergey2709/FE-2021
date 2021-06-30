@@ -1,16 +1,14 @@
 // Использовал энтриз для превращение объекта в массив массивов, далее
 // сравнил подмассивы с помощью JOIN
 
-
 function compareObjects(obj1, obj2) {
   const arr1 = Object.entries(obj1);
   const arr2 = Object.entries(obj2);
 
   if (arr1.length !== arr2.length) {
     return false;
-  } else {
-    return arr1[0].join() == arr2[0].join() && arr1[1].join() == arr2[1].join();
   }
+  return arr1[0].join() === arr2[0].join() && arr1[1].join() == arr2[1].join();
 }
 
 // examples

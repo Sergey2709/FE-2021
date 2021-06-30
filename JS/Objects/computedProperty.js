@@ -10,35 +10,30 @@
  * для этой задачи он отключен аннотацией eslint-disable
  * */
 
-function addPropertyV1(userData, userId) {
-  userData.id = userId;
-  return userData;
+function addPropertyV1(obj, key, value) {
+  obj[key] = value;
+  return obj;
 }
 
-function addPropertyV2(userData, userId) {
-  const userDataNew = Object.assign(userData);
-  userDataNew.id = userId;
-  return userDataNew;
+function addPropertyV2(obj, key, value) {
+  Object.assign(obj)[key] = value;
+  return obj;
 }
 
-function addPropertyV3(userData, userId) {
-  const userDataNew = Object.assign({}, userData);
-  userDataNew.id = userId;
-  return userDataNew;
+function addPropertyV3(obj, key, value) {
+  const newObj = Object.assign({}, obj);
+  newObj[key] = value;
+  return newObj;
 }
 
-function addPropertyV4(userData, userId) {
-  const userDataNew = { ...userData };
-  userDataNew.id = userId;
-  return userDataNew;
+function addPropertyV4(obj, key, value) {
+  const newObj = { ...obj };
+  newObj[key] = value;
+  return newObj;
 }
 
 // examples
-const user = {
-  name: 'Sam',
+const transaction = {
+  value: 170,
 };
-console.log(addPropertyV2(user, '1234567')); // ==> { name: 'Sam', id: '1234567' }
-
-
-// console.log(addPropertyV4(user, '1234567'));
-// console.log(user);
+addPropertyV4(transaction, 'currency', 'USD'); // ==> { value: 170, currency: 'USD' }

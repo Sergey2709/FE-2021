@@ -1,14 +1,13 @@
 const splitText = (string, lengthString = 10) => {
     const strArr = [];
     let startPosition = 0;
-    console.log(typeof(string));
 
     if (typeof(string) !== 'string') {
         return null;
-    };
+    }
 
     while (true) {
-        let chunk = string.substr(startPosition, lengthString);
+        const chunk = string.substr(startPosition, lengthString);
         if (chunk.length === 0) {
             break;
         }
@@ -17,6 +16,6 @@ const splitText = (string, lengthString = 10) => {
         startPosition += lengthString;
     }
     return strArr.join('\n');
-}
+};
 
 console.log(splitText('dsadgrttggfmgfjgfddfdmfjhgffjdfdfmgfgf', 5));

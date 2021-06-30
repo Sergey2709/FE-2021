@@ -3,23 +3,16 @@ const sortContacts = (arr, sortAds = true) => {
     return null;
   }
 
-  let result;
-
-  if (sortAds === true) {
-    result = arr.sort((a, b) => {
-      return a.name.localeCompare(b.name);
-    });
-  } else {
-    result = arr.sort((a, b) => {
-      return b.name.localeCompare(a.name);
-    });
+  if (!sortAds) {
+    return arr.sort((a, b) => b.name.localeCompare(a.name));
   }
-  return result;
+
+  return arr.sort((a, b) => a.name.localeCompare(b.name));
 };
 
 const contacts = [
-    {name: 'Vasya', age: 28},
-    {name: 'Petya', age: 35},
+  { name: 'Vasya', age: 28 },
+  { name: 'Petya', age: 35 },
 ];
 
 console.log(sortContacts(contacts, true));
