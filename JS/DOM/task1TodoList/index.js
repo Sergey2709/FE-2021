@@ -29,4 +29,4 @@ const renderListItems = listItems => {
     listElem.append(...listItemsElems);
 };
 
-renderListItems(tasks);
+console.log(renderListItems(tasks));
