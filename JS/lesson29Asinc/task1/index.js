@@ -6,15 +6,13 @@ const addImage = (imgSrc, callback) => {
   containerElem.append(imgElem);
 
   const onImageLoaded = () => {
-    const { width, height } = imgElem;
-    callback (null, { width, height });
+    // const { width, height } = imgElem;
+    callback(null, imgElem);
   };
 
   imgElem.addEventListener('load', onImageLoaded);
 
-  const isntLoaded = () => callback('Image load is failed...');
-
-  imgElem.addEventListener('error', isntLoaded);
+  imgElem.addEventListener('error', () => callback('Image load is failed...'));
 };
 
 
